@@ -1,0 +1,188 @@
+/*
+Jimdo Template 4019
+by PK
+*/
+
+body {
+    background-color: #ffffff!important;
+    text-align: center;
+    padding: 0px 0px !important;
+}
+/*  Layout
+----------------------------------------------- */
+
+div#cc-tp-header {
+    width: 864px;
+    margin: 0 auto;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/header_bottom.png) bottom center no-repeat;
+    padding-bottom: 30px;
+}
+div#cc-tp-container {
+    width: 864px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: left;
+}
+div#cc-tp-emotion {
+    width: 864px;
+    margin: 0 auto;
+    border: none;
+}
+div#cc-tp-wrapper {
+    width: 864px;
+    padding: 0px 0;
+}
+div#cc-tp-mainnavigation,
+div.cc-tp-subnavigation1,
+div.cc-tp-subnavigation2 {} div#cc-tp-content {
+    width: 600px;
+    float: right;
+}
+div#cc-tp-sidebar {
+    width: 250px;
+    float: left;
+}
+div#cc-tp-footer {
+    clear: both;
+    background: url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/footer_top_bg.png) center top no-repeat;
+    padding-top: 35px;
+    color: #000;
+}
+div#cc-tp-footer a {
+    color: #000;
+    text-decoration: none;
+}
+div#cc-tp-footer a:hover {
+    text-decoration: underline;
+}
+/*  Innenabstaende
+----------------------------------------------- */
+
+div#cc-tp-content .gutter {
+    padding: 0px 10px 20px 20px;
+}
+div#cc-tp-sidebar .gutter {
+    padding: 20px 20px 20px 10px;
+}
+div#cc-tp-footer .gutter {
+    padding: 20px;
+}
+/*  Navi
+----------------------------------------------- */
+
+ul.mainNav1 {
+    text-align: left;
+    padding-top: 35px!important;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/header_bottom.png) top center no-repeat;
+    margin: 0;
+    padding: 0;
+}
+ul.mainNav2 {
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_bottom_bg.png) bottom no-repeat!important;
+    margin: 0;
+    padding: 0!important;
+    width: 100%!important;
+    padding-bottom: 40px!important;
+}
+ul.mainNav3 {
+    margin: 0;
+    padding: 0!important;
+    width: 100%!important;
+}
+ul.mainNav1 li,
+ul.mainNav2 li,
+ul.mainNav3 li {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0!important;
+    text-decoration: none;
+}
+ul.mainNav1 li {} ul.mainNav2 li,
+ul.mainNav3 li {
+    width: 90%;
+    text-decoration: none;
+}
+/* Fix Navi Admin Panel */
+
+ul.mainNav1,
+ul.mainNav2,
+ul.mainNav3 {
+    overflow: hidden;
+}
+* html ul.mainNav1,
+* html ul.mainNav2,
+* html ul.mainNav3 {
+    height: 1%;
+    overflow: visible;
+}
+ul.mainNav1 li a,
+ul.mainNav1 li a:visited {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    color: #666666;
+}
+ul.mainNav2 li a,
+ul.mainNav2 li a:visited,
+ul.mainNav3 li a,
+ul.mainNav3 li a:visited {
+    display: block;
+    outline: none;
+    color: #999999;
+    text-decoration: none;
+}
+ul.mainNav2 li a,
+ul.mainNav2 li a:visited {
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el.png) 0 50% no-repeat;
+}
+ul.mainNav3 li a,
+ul.mainNav3 li a:visited {
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el.png) 20px 50% no-repeat;
+}
+ul.mainNav1 li a,
+ul.mainNav1 li a:visited {
+    padding: 5px 15px;
+}
+ul.mainNav2 li a,
+ul.mainNav2 li a:visited {
+    padding: 5px 15px;
+}
+ul.mainNav3 li a,
+ul.mainNav3 li a:visited {
+    padding: 5px 15px 5px 35px;
+}
+ul.mainNav1 li a:hover {
+    color: #53D7F8;
+}
+ul.mainNav2 li a:hover {
+    color: #53D7F8;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el_active.png) 0 50% no-repeat;
+}
+ul.mainNav1 li a.parent,
+ul.mainNav1 li a.parent:visited,
+ul.mainNav1 li a.current,
+ul.mainNav1 li a.current:visited {
+    margin-left: 0;
+    color: #53D7F8;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav1_li_el_active.png) 0 50% no-repeat;
+}
+ul.mainNav2 li a.parent,
+ul.mainNav2 li a.parent:visited,
+ul.mainNav2 li a.current,
+ul.mainNav2 li a.current:visited {
+    margin-left: 0;
+    color: #53D7F8;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el_active.png) 0 50% no-repeat;
+    text-decoration: none;
+}
+ul.mainNav3 li a:hover {
+    color: #53D7F8;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el_active.png) 20px 50% no-repeat;
+}
+ul.mainNav3 li a.current,
+ul.mainNav3 li a.current:visited {
+    color: #53D7F8;
+    background: transparent url(https://u.jimdo.com/www400/o/layout/lffccbe3cc6445c8a/img/nav_li_el_active.png) 20px 50% no-repeat;
+    text-decoration: none;
+}
